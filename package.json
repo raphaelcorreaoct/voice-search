@@ -1,0 +1,12 @@
+{
+  "name": "voice-search",
+  "version": "1.0.0",
+  "description": "Esse é um projeto para fazer pesquisa utilizado a voz ",
+  "main": "index.js",
+  "repository": "https://github.com/raphaelcorreaoct/voice-search.git",
+  "author": "Raphael Correa <raphael.correa.b@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
