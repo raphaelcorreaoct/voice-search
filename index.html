@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voice Search</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+
+  <header>
+    <div class="wrapper">
+      <button>
+        Settings
+      </button>
+
+
+      <button>
+        Login
+      </button>
+    </div>
+
+  </header>
+  <main>
+    <div class="wrapper">
+      <h1 class="logo">Car.<span>IT</span></h1>
+
+      <div>
+        <div class="form-search">
+          <input id="search-field" type="search" placeholder="Buscar por marca" />
+          <button id="search-start">Falar <img src="./assets/icon-mic.svg"></button>
+        </div>
+        <div class="search-option">
+          <label>
+            <input type="radio" name="searchBy" value="0" checked />
+            <span>Buscar por marca </span>
+          </label>
+          <label>
+            <input type="radio" name="searchBy" value="1" />
+            <span>Buscar por id </span>
+          </label>
+          <label>
+            <input type="radio" name="searchBy" value="2" />
+            <span>Buscar por ano </span>
+          </label>
+          <label>
+            <input type="radio" name="searchBy" value="3" />
+            <span>Buscar por nome </span>
+          </label>
+        </div>
+      </div>
+
+
+      <div class="result">
+        <div class="table">
+          <div class="table-row table-header">
+            <div class="table-item-header">id</div>
+            <div class="table-item-header">Nome</div>
+            <div class="table-item-header">Ano</div>
+            <div class="table-item-header">Marca</div>
+          </div>
+          <div class="table-body">
+            <div class="table-row">
+              <div class="table-item-body">Alfreds Futterkiste</div>
+              <div class="table-item-body">Maria Anders</div>
+              <div class="table-item-body">Germany</div>
+              <div class="table-item-body">Germany</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
